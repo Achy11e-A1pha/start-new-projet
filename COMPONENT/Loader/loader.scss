@@ -1,0 +1,31 @@
+.loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: $fond2;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        animation: apparition 2s ease-in-out forwards;
+        transform: translateY(200%);
+    }
+
+    @keyframes apparition {
+        0% {
+            transform: translateY(200%);
+        }
+
+        100% {
+            transform: translateY(0%);
+        }
+    }
+}
+
+.fondu-out {
+    display: none;
+}

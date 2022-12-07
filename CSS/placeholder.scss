@@ -1,0 +1,27 @@
+// @extend %flexbox;
+
+%displayflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+%allwindows {
+    height: 100vh;
+    width: 100vw;
+}
+
+%paddmargin {
+    margin: 0;
+    padding: 0;
+}
+
+%visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+%invisible {
+    opacity: 0;
+    visibility: hidden;
+}
